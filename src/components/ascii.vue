@@ -315,7 +315,6 @@ onMounted(() => {
     AsciiMorph.render(nox)
   }
 });
-
 </script>
 
 <template>

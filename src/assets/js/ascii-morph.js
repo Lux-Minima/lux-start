@@ -240,4 +240,5 @@ var AsciiMorph = (function() {
     morph: morph
   });
   
-  })();
+})();
+
