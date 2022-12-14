@@ -5,6 +5,7 @@
         <!-- LEFT SIDEBAR -->
         <div class="bg-void-600 dark:bg-void-800 border-0 shadow-lg border-void-600 h-full rounded relative">
           <corner></corner>
+          <fav class="relative z-10"></fav>
         </div>
       </div>
       <div>
@@ -16,6 +17,7 @@
         <!-- RIGHT SIDEBAR -->
         <div class="bg-void-300 dark:bg-void-700 rounded relative">
           <corner></corner>
+          
           <p class="spacemono text-lg text-left p-5">Hello !</p>
         </div>
         <div class="bg-void-600 dark:bg-void-800 border-0 shadow-lg border-void-600 h-full rounded row-span-2 relative">
@@ -55,9 +57,11 @@
 <script>
 import ascii from '@/components/ascii.vue'
 import corner from '@/components/corner.vue'
+import todo from '@/components/todo.vue'
+import fav from '@/components/fav.vue'
 
 export default {
-  components : {ascii,corner},
+  components : {ascii,corner,todo,fav},
   data() {
     
     return {
